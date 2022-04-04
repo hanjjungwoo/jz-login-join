@@ -273,7 +273,7 @@ nav a:nth-child(5):hover ~ #indicator
     position: absolute;
     align-items: center;
     font-family: "jua";
-    background-color:#f8f8ff;
+    background-color:#f8f9fa;
     border: solid 1px #e6e6e6;
     border-radius: 6vh;
     height: 60vh;
