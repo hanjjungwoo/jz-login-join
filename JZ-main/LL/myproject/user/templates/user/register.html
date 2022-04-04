@@ -24,6 +24,7 @@
 
     <form action="" method="POST" class="join-form">
         <div class="join-html">
+            <div class="login-head">JOIN</div>
             {% csrf_token %}
 
             {% for form in forms %}
@@ -36,7 +37,7 @@
             {% if error %}
             {{ error }}
             {% endif %}
-            <button type="submit" name="register-submit" value="register" class="form-btn">회원가입하기</button>
+            <button type="submit" name="register-submit" value="register" class="form-btn" style="margin-top:10px">회원가입하기</button>
         </div>
     </form>
 </body>

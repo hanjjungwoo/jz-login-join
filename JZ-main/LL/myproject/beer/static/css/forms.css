@@ -11,7 +11,7 @@ a{color:inherit;text-decoration:none}
 .form-header {
     display:block;
     margin-top: 5%;
-    color: #6ba8bb;
+    color: #77cdd3;
     text-align: center;
     font-size: 7vw;
     font-family: "jua";
@@ -35,7 +35,7 @@ a{color:inherit;text-decoration:none}
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:rgba(67, 118, 133, 0.9);
+	background:rgba(95, 163, 168, 0.9);
     border-radius: 2vw;
 }
 .login-head{
@@ -60,7 +60,7 @@ a{color:inherit;text-decoration:none}
 	height:100%;
 	position:absolute;
 	padding:90px 70px 50px 70px;
-	background:rgba(67, 118, 133, 0.9);
+	background:rgba(95, 163, 168, 0.9);
     border-radius: 2vw;
 }
 .join-head{
@@ -72,14 +72,14 @@ a{color:inherit;text-decoration:none}
 }
 .form-font {
     font-weight: bold;
-    color:#aaa;
+    color:rgb(179, 179, 179);
 	font-size:12px;
     font-family: "jua";
     font-size: 1vw;
 }
 input[type=text] {
     border:none;
-    width: 18vw;
+    width: 22vw;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
@@ -88,7 +88,7 @@ input[type=text] {
 }
 input[type=password] {
     border:none;
-    width: 18vw;
+    width: 22vw;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
@@ -97,7 +97,7 @@ input[type=password] {
 }
 input[type=email]{
     border:none;
-    width: 18vw;
+    width: 22vw;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
@@ -107,21 +107,26 @@ input[type=email]{
 .form-btn {
     outline: 0;
     border: 0;
-    width: 8.85vw;
+    width: 22vw;
     height: 5vh;
     border-radius: 1vw;
     box-sizing: border-box;
+    font-family: "jua";
+    font-size: 1.2vw;
 }
 .form-a {
+    margin-top: 2vh;
     display: inline-block;
     text-decoration: none !important;
     outline: 0;
     border: 0;
-    width: 8.85vw;
+    width: 22vw;
     height: 5vh;
     border-radius: 1vw;
     background-color: #efefef;
-    padding-top: 4.5%;
+    padding-top: 3%;
     text-align: center;
     box-sizing: border-box;
+    font-family: "jua";
+    font-size: 1.2vw;
 }
